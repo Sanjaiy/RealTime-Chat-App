@@ -1,0 +1,20 @@
+{
+  "name": "realtime-chat-app",
+  "version": "1.0.0",
+  "description": "Realtime Chat App using Socket.io,Expressjs and nodejs",
+  "main": "server.js",
+  "scripts": {
+    "start": " node server",
+    "dev" : "nodemon server"
+  },
+  "author": "Sanjaiy Kumar",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^2.0.7"
+  },
+  "dependencies": {
+    "express": "^4.17.1",
+    "moment": "^2.29.1",
+    "socket.io": "^3.1.2"
+  }
+}
